@@ -1,3 +1,4 @@
+![NWD Logo](./assets/nwd-logo.png)
 # NWD CLI
 This is a CLI for Negev Web Developer group - Just a play for fun project :)
 
