@@ -1,4 +1,4 @@
-![NWD Logo](./assets/nwd-logo.png)
+![NWD CLI](./assets/NWD_log.png)
 
 # NWD CLI
 
@@ -24,7 +24,6 @@ You can see the facebook, youtube and founder details
    `nwd facebook`
    `nwd youtube`
 
-![NWD CLI](./assets/NWD_log.png)
 
 ## Credits
 
