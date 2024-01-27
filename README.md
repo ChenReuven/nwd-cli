@@ -2,8 +2,8 @@
 This is a CLI for Negev Web Developer group - Just a play for fun project :)
 
 You can see the facebook, youtube and founder details
-facebook: https://www.facebook.com/groups/145321082797079
-youtube: https://www.youtube.com/@negevDev
+- facebook: https://www.facebook.com/groups/145321082797079
+- youtube: https://www.youtube.com/@negevDev
 
 ## How to run
 1. clone
