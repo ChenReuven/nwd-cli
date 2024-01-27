@@ -1,4 +1,6 @@
-![NWD CLI](./assets/NWD_log.png)
+![NWD LOGO](./assets/NWD_log.png)
+
+![NWD CLI](./assets/nwd-image.png)
 
 # NWD CLI
 
