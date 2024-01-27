@@ -20,3 +20,12 @@ You can see the facebook, youtube and founder details
 `nwd youtube`
 
 ![NWD CLI](./assets/nwd-image.png)
+
+## Credits
+This Repo is made by Chen Reuven, ChenTech@2024
+
+- [My Blog](https://chenreuven.substack.com)
+- [My Linkedin](https://www.linkedin.com/in/chen-reuven-7535aa28/)
+
+## License
+MIT
