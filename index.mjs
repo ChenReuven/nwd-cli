@@ -2,9 +2,11 @@ import { Command } from "commander";
 const program = new Command();
 import figlet from "figlet";
 import open from "open";
+import chalk from 'chalk';
 
+const log = console.log;
 
-console.log(figlet.textSync("NWD - Cli"));
+log(chalk.cyanBright(figlet.textSync("NWD - Cli")));
 const nwdFbUrl = 'https://www.facebook.com/groups/145321082797079';
 const nwdYTUrl = 'https://www.youtube.com/@negevDev';
 
@@ -33,13 +35,13 @@ program
 .command('founders')
 .description('NWD Founders')
 .action(() => {
-  console.log(figlet.textSync("Yanai Edri"));
-  console.log("https://www.linkedin.com/in/yanaiedri");
+  log(chalk.blue(figlet.textSync("Yanai Edri")));
+  log(chalk.blue("https://www.linkedin.com/in/yanaiedri"));
 
-  console.log("-----------------------");
+  log("-----------------------");
 
-  console.log(figlet.textSync("Yury Michurin"));
-  console.log("https://www.linkedin.com/in/yurymichurin");
+  log(chalk.magenta(figlet.textSync("Yury Michurin")));
+  log(chalk.magenta("https://www.linkedin.com/in/yurymichurin"));
 });
 
 program.command('social')
@@ -47,9 +49,8 @@ program.command('social')
 .option('--fa', 'Display NWD facebook')
 .option('--yt', 'Display NWD Youtube')
 .action((options) => {
-  // console.log("This is a security NWD CLI, Solve This CAPTCHA! 🦄 ");
-  console.log("open in 3 2 1...");
-  console.log('Click on this link: https://www.example.com');
+  // log("This is a security NWD CLI, Solve This CAPTCHA! 🦄 ");
+  log(chalk.bgMagentaBright("opening in 3 2 1..."));
 
   setTimeout(() => {
     if(options?.fa) {
